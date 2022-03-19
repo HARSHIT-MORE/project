@@ -11,3 +11,11 @@ h1 {
     monospace;
     color: white;
 }
+.form{
+  
+  display: grid;
+  
+  display: center;
+  background-color: white;
+
+}

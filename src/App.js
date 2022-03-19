@@ -1,6 +1,13 @@
 import React from 'react';
+import {Login} from './Login'
+
 function App(){
-return(<h1>RaiseDu Project</h1>)
+return(<>
+<h1>RaiseDu</h1>
+
+<Login/>
+</>
+)
 }
 
 export default App;
