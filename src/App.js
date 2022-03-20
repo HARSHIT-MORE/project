@@ -3,7 +3,7 @@ import {Login} from './Login'
 
 function App(){
 return(<>
-<h1>RaiseDu</h1>
+<h1>Login</h1>
 
 <Login/>
 </>
