@@ -5,8 +5,9 @@ export const Login = () => {
   const [password, setPassword] = useState("");
 
   return (
-    <div>
+    <article>
       <form className="form">
+        <div className='form-control'>
         <label htmlFor="email">Email :</label>
         <input
           type="email"
@@ -16,7 +17,8 @@ export const Login = () => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <br />
+        </div>
+        <div className='form-control'>
         <label htmlFor="password">Password :</label>
         <input
           type="password"
@@ -26,8 +28,9 @@ export const Login = () => {
           onChange={(e) => setPassword(e.target.value)}
           required
         />
-      </form>
-      <br />
+        </div>
+      
+     
       <button
         type="submit"
         onClick={() => {
@@ -36,6 +39,7 @@ export const Login = () => {
       >
         Submit
       </button>
-    </div>
+      </form>
+    </article>
   );
 };
