@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CheckBox from "./CheckBox";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
@@ -29,7 +30,9 @@ export const Login = () => {
           required
         />
         </div>
-      
+      <div className='form-control'>
+        <CheckBox/>
+      </div>
      
       <button
         type="submit"

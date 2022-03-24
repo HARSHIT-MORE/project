@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CheckBox from "./CheckBox";
 
 function Registration() {
   const [name, setName] = useState("");
@@ -60,6 +61,9 @@ function Registration() {
           onChange={(e) => setConform(e.target.value)}
           required
         />
+        </div>
+        <div className="form-control">
+          <CheckBox/>
         </div>
         <button type="submit" onClick={() => console.log("data submitted")}>
           Register
