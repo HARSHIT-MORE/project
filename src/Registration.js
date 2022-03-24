@@ -9,6 +9,7 @@ function Registration() {
   const [conform, setConform] = useState("");
   return (
     <>
+    <h1 style={{textAlign:'center'}}>Registration</h1>
     <article>
       <form className="form">
         <div className='form-control'>
@@ -63,7 +64,7 @@ function Registration() {
         />
         </div>
         <div className="form-control">
-          <CheckBox/>
+          <CheckBox  required/>
         </div>
         <button type="submit" onClick={() => console.log("data submitted")}>
           Register

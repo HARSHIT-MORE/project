@@ -2,7 +2,7 @@ import React from 'react'
 
 function Internship() {
   return (
-    <div>Internship</div>
+    <h1 style={{textAlign:'center'}}>Internship</h1>
   )
 }
 

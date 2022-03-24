@@ -6,6 +6,8 @@ export const Login = () => {
   const [password, setPassword] = useState("");
 
   return (
+    <>
+    <h1 style={{textAlign:'center'}}>Login</h1>
     <article>
       <form className="form">
         <div className='form-control'>
@@ -31,7 +33,7 @@ export const Login = () => {
         />
         </div>
       <div className='form-control'>
-        <CheckBox/>
+        <CheckBox required/>
       </div>
      
       <button
@@ -44,5 +46,6 @@ export const Login = () => {
       </button>
       </form>
     </article>
+    </>
   );
 };
